@@ -9,4 +9,8 @@ void loop() {
   delay(1000);
   digitalWrite(vibPin, LOW);
   delay(1000);
+  digitalWrite(vibPin, HIGH);
+  delay(10000);
+  digitalWrite(vibPin, LOW);
+  delay(10000);
 }
