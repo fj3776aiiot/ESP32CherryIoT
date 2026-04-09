@@ -23,7 +23,7 @@ void setup()
 
 void loop()
 {
-  for(int i=128; i>0; i--){
+  for(int i=128; i>-100; i--){
     display.clearDisplay();
 
     display.setTextSize(2);
