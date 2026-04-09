@@ -19,14 +19,18 @@ void setup()
 
   display.clearDisplay();
 
-  display.setTextSize(2);
+  display.setTextSize(1);
   display.setTextColor(SSD1306_WHITE);
   display.setCursor(0, 5);
-  display.print(F("   ^-^  "));
+  display.print(F("So many men,"));
+  display.setCursor(0, 12);
+  display.print(F("   so many minds."));
   display.setCursor(0, 25);
-  display.print(F("  (:o:)/ "));
+  display.print(F("Failure teaches "));
+  display.setCursor(0, 32);
+  display.print(F("   success."));
   display.setCursor(0, 45);
-  display.print(F(" /| A | "));
+  display.print(F("The early bird catches the worm."));
 
   display.display();
 }
