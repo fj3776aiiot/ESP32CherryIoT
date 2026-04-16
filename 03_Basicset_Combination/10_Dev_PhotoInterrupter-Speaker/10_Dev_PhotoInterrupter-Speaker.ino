@@ -55,5 +55,5 @@ void loop() {
     Serial.println("秒経過)");
 
   }
-  delay(100);
+  delay(500);
 }
